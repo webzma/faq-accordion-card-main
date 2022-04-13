@@ -31,12 +31,13 @@ body {
   max-width: 1440px;
   font-family: 'Kumbh Sans', sans-serif;
   background: linear-gradient(var(--soft-violet), var(--soft-blue));
-  height: 100vh;
+  height: 100%;
   display: grid;
   place-items: center;
 }
 
 .container {
+  height: 100vh;
   margin: auto;
   width: 90%;
   display: grid;
@@ -45,10 +46,10 @@ body {
 
 .fag {
   position: relative;
-  margin-top: 90px;
+  margin-top: 75px;
   width: 90%;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 14px 14px 25px;
 }
 
@@ -63,34 +64,85 @@ body {
   transform: translateY(-113px);
   top: 0;
   position: absolute;
-  z-index: 1000;
+  z-index: 1;
 }
 
-.bg-ilustration {
+
+.bg-ilustration-mobile {
   transform: translateY(-7px) !important;
 }
 
 .info-container h3 {
   text-align: center;
-  margin-top: 115px;
+  margin-top: 69px;
   margin-bottom: 35px;
   font-size: 28px;
 }
 
 .card {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 13px;
   padding-bottom: 15px;
   border-bottom: 2px solid var(--light-grayish-blue);
 }
 
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title .icon {
+  transition: transform .6s ease-in-out;
+}
+
 .cards-container {
   width: 85%;
+  max-width: 300px;
   margin: auto;
 }
 
 .card p {
   font-size: var(--font-size);
+  cursor: pointer;
+  color: var(--dark-grayish-blue);
+}
+
+.card .p1:hover, .p2:hover, .p3:hover, .p4:hover, .p5:hover {
+  color: var(--soft-red);
+}
+
+.card p .active {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ilustration-desktop {
+  display: none;
+}
+
+.bg-ilustration-desktop {
+  display: none;
+}
+
+.box-ilustration {
+  display: none;
+}
+
+.description {
+  margin-top: 10px;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.icon-active {
+  transform: rotate(180deg);
 }

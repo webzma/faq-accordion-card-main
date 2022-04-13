@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/desktop.css" media="(min-width: 730px)">
   <title>Frontend Mentor || Wilberk Ledezma</title>
 </head>
 
@@ -15,8 +16,13 @@
     <div class="fag">
 
       <div class="ilustration-container">
-        <img src="images/illustration-woman-online-mobile.svg" alt="ilustration">
-        <img src="images/bg-pattern-mobile.svg" alt="background ilustration" class="bg-ilustration">
+        <img src="images/illustration-woman-online-mobile.svg" alt="ilustration" class="ilustration-mobile">
+        <img src="images/bg-pattern-mobile.svg" alt="background ilustration" class="bg-ilustration-mobile">
+
+
+        <img src="images/illustration-woman-online-desktop.svg" alt="ilustration" class="ilustration-desktop">
+        <img src="images/bg-pattern-desktop.svg" alt="background ilustration" class="bg-ilustration-desktop">
+        <img src="images/illustration-box-desktop.svg" alt="Box ilustration" class="box-ilustration">
       </div>
 
       <div class="info-container">
@@ -24,34 +30,54 @@
 
         <div class="cards-container">
           <div class="card">
-            <p>How many team members can I invite?</p>
-            <img src="images/icon-arrow-down.svg" alt="">
+            <div class="card-title">
+              <p class="p1">How many team members can I invite?</p>
+              <img src="images/icon-arrow-down.svg" alt="Icon Arrow" class="icon icon1">
+            </div>
+            <p class="description description1">You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.</p>
           </div>
 
           <div class="card">
-            <p>What is the maximum file upload size?</p>
-            <img src="images/icon-arrow-down.svg" alt="">
+            <div class="card-title">
+              <p class="p2">How many team members can I invite?</p>
+              <img src="images/icon-arrow-down.svg" alt="Icon Arrow" class="icon icon2">
+            </div>
+            <p class="description description2">No more than 2GB. All files in your account must fit your allotted storage space.</p>
           </div>
 
           <div class="card">
-            <p>How do I reset my password?</p>
-            <img src="images/icon-arrow-down.svg" alt="">
+            <div class="card-title">
+              <p class="p3">How many team members can I invite?</p>
+              <img src="images/icon-arrow-down.svg" alt="Icon Arrow" class="icon icon3">
+            </div>
+            <p class="description description3">Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.</p>
           </div>
 
           <div class="card">
-            <p>Can I cancel my subscription?</p>
-            <img src="images/icon-arrow-down.svg" alt="">
+            <div class="card-title">
+              <p class="p4">How many team members can I invite?</p>
+              <img src="images/icon-arrow-down.svg" alt="Icon Arrow" class="icon icon4">
+            </div>
+            <p class="description description4">Yes! Send us a message and we’ll process your request no questions asked.</p>
           </div>
 
           <div class="card">
-            <p>Do you provide additional support?</p>
-            <img src="images/icon-arrow-down.svg" alt="">
+            <div class="card-title">
+              <p class="p5">How many team members can I invite?</p>
+              <img src="images/icon-arrow-down.svg" alt="Icon Arrow" class="icon icon5">
+            </div>
+            <p class="description description5">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
           </div>
+
         </div>
       </div>
 
     </div>
   </div>
+
+  <script src="./js/app.js"></script>
 </body>
 
 </html>

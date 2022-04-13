@@ -1,0 +1,65 @@
+.fag {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px 0px;
+  max-width: 900px;
+  margin-top: 0;
+  position: relative;
+}
+
+.card p {
+  font-size: 13px;
+}
+
+.info-container h3 {
+  text-align: start;
+  margin-top: 25px;
+  font-size: 38px;
+}
+
+.cards-container {
+  margin: 0;
+}
+
+.ilustration-mobile {
+  display: none;
+}
+
+.bg-ilustration-mobile {
+  display: none;
+}
+
+.ilustration-container {
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  position: relative;
+}
+
+.ilustration-container img {
+  width: 90%;
+  z-index: 1000;
+  top: inherit;
+}
+
+.ilustration-desktop {
+  display: block;
+  transform: translateY(0) !important;
+  transform: translateX(-35px) !important;
+  min-width: 320px;
+}
+
+.bg-ilustration-desktop {
+  display: block;
+  transform: translateY(0) !important;
+  transform: translateX(-30px) !important;
+}
+
+
+.box-ilustration {
+  display: block;
+  width: 180px !important;
+  transform: translate(-88px, -40px) !important;
+  bottom: 0;
+  z-index: 10;
+}
