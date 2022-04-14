@@ -82,7 +82,7 @@ body {
 .card {
   align-items: center;
   margin-bottom: 13px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   border-bottom: 2px solid var(--light-grayish-blue);
 }
 
