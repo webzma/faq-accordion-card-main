@@ -60,7 +60,7 @@
 .box-ilustration {
   display: block;
   width: 180px !important;
-  transform: translate(-88px, -40px) !important;
+  transform: translate(-88px, -72px) !important;
   bottom: 0;
   z-index: 10;
 }
